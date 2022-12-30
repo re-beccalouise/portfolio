@@ -14,6 +14,30 @@ body {
     color: #4B5842;
 }
 
+header {
+   float: right;
+}
+
+header button {
+    background: none;
+    border: none;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+/* toggle dark/light mode */
+
+.dark-mode {
+    color: #C7F9CC;
+    background-color: #4B5842;
+}
+
+
 /* home */
 
 #hithere, #bec, #frontend, #liverpool {
@@ -61,13 +85,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #4B5842;
+    color: #c7607b;
     font-size: 32px;
     padding: 80px;
 }
 
 nav a:hover {
-    color: #c7607b;
     font-weight: bold;
 }
 
